@@ -1,18 +1,37 @@
 * {
     margin: 0;
 }
+
 nav {
     float: right;
+}
+
+main {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png");
+    width: auto;
+}
+
+article {
+    float: left;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    border-bottom: 3px solid white;
 }
 
 body {
     max-width: 800px;
     margin: 100px auto;
 }
+
 article {
     width: 500px;
     background-color: orange;
     margin: 20px;
+    padding: 20px;
 }
 
 img {
@@ -20,7 +39,21 @@ img {
     width: 175px;
     margin: 10px;
 }
+
 p {
     width: 500px;
     margin: 10px;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    border-top: 4px solid #000;
 }
