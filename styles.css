@@ -5,11 +5,10 @@
 body {
     max-width: 800px;
     margin: 100px auto;
-
 }
-section.main {
-    background-color: red;
-    width: 510 px;
+article {
+    width: 500px;
+    background-color: blue;
 }
 
 img {
