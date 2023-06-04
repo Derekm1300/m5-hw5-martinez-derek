@@ -7,10 +7,10 @@ body {
     margin: 100px auto;
 
 }
-img.main {
+img {
     float: left;
-    
-    width: 80%;
+    width: 60%;
+    margin: 5px;
 }
 p {
     display: block;
@@ -20,4 +20,5 @@ p {
     padding: 20px;
     margin: 20px;
     width: 550px;
+    text-align: justify;
 }
