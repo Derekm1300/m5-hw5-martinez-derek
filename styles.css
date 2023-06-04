@@ -20,6 +20,7 @@ header {
     background-color: white;
     max-width: 685px;
     font-size: 25px;
+    margin: 0 auto;
 }
 
 a.name {
@@ -43,7 +44,6 @@ div.container {
 div.content {
     max-width: 685px;
     margin: 0 auto;
-    ali
     
 }
 
