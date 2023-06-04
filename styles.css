@@ -8,13 +8,13 @@ body {
 
 }
 section.main {
-
     background-color: red;
+    width: 510 px;
 }
 
 img {
     float: left;
-    width: 180px;
+    width: 165px;
     margin: 10px;
 }
 p {
