@@ -15,9 +15,21 @@ section {
 }
 
 header { 
-    padding: 15px 0;
+    margin: 20px 10px;
+    padding: 10px;
     background-color: white;
     max-width: 685px;
+    font-size: 25px;
+}
+
+a.name {
+    background-color: blue;
+    width: 25px;
+}
+
+nav.menu {
+    float: right;
+
 }
 
 div.container {
@@ -35,23 +47,6 @@ div.content {
     
 }
 
-a.name {
-    background-color: blue;
-    padding: 15px 10px;
-    color: white;
-    margin: 0 20px;
-
-}
-
-nav.menu {
-    float: right;
-    padding: 0px;
-    margin: 0px;
-    background-color: blue;
-    color: white;
-
-}
-
 article.about {
     float: left;
     width: 400px;
@@ -65,7 +60,7 @@ nav.connect {
     float: right;
     align-content: center;
     width: 165px;
-    background-color: green;
+    background-color: white;
     margin: 20px 20px;
     padding: 10px;
 }
