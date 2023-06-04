@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+nav {
+    float: right;
+}
 
 body {
     max-width: 800px;
