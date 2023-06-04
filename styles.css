@@ -14,13 +14,14 @@ header {
 a.name {
     background-color: grey;
     padding: 15px;
-    color: white;
-    
+    color: white;    
 }
 
 nav.menu {
+    display: inline-block;
     float: right;
     font: red;
+    width: 175px;
 }
 
 div.container {
@@ -32,7 +33,7 @@ div.container {
 }
 
 div.content {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     
 }
@@ -49,7 +50,7 @@ article.about {
 nav.connect {
     float: right;
     align-content: center;
-    width: 175px;
+    width: 200px;
     background-color: white;
     margin: 20px 20px;
     padding: 10px;
