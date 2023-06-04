@@ -7,12 +7,17 @@ body {
     margin: 100px auto;
 
 }
+section.main {
+
+    background-color: red;
+}
+
 img {
     float: left;
-    width: 100px;
-    margin: 5px;
+    width: 180px;
+    margin: 10px;
 }
 p {
-    width: 550px;
+    width: 500px;
     text-align: justify;
 }
