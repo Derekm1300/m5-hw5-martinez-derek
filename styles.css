@@ -3,34 +3,22 @@
     max-width: auto;
 }
 
-body {
-    margin: 0 auto;
-    max-width: auto;
-    
-}
-
-section { 
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png");
-
-}
-
-header { 
-    margin: 20px 10px;
-    padding: 10px;
-    background-color: white;
+header {  
     max-width: 685px;
-    font-size: 25px;
+    padding: 15px 100px 15px 100px;
     margin: 0 auto;
+    font-size: 15px;
 }
+
 
 a.name {
-    background-color: blue;
-    width: 25px;
+    background-color: red;
+    padding: 15px;
+   
 }
 
 nav.menu {
     float: right;
-
 }
 
 div.container {
