@@ -9,7 +9,8 @@ body {
 }
 img.main {
     float: left;
-    width: 30px;
+    
+    width: 80%;
 }
 p {
     display: block;
@@ -18,5 +19,5 @@ p {
     border: 12px;
     padding: 20px;
     margin: 20px;
-    width: 300px;
+    width: 550px;
 }
