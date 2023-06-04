@@ -15,35 +15,29 @@ article {
     float: left;
 }
 
-h1 {
-    margin: 20px;
-    padding: 20px;
-    padding-top: 50px;
-    border-bottom: 3px solid white;
-}
-
-body {
-    max-width: 800px;
-    margin: 100px auto;
-}
-
 article {
-    width: 500px;
+    width: 400px;
     background-color: orange;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
+
+h1 {
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
 
 img {
     float: left;
-    width: 175px;
-    margin: 10px;
+    width: 125px;
+    padding-top: 10px;
 }
 
 p {
-    width: 500px;
-    margin: 10px;
+    padding-top: 10px;
 }
+
 
 main::after {
     content: "";
