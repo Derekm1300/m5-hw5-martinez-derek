@@ -7,11 +7,10 @@ body {
     margin: 30px auto;
 
 }
-img.headshot {
+img {
     float: left;
     width: 10px;
 }
-
 p {
     display: block;
     box-sizing: border-box;
