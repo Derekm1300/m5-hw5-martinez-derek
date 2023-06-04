@@ -12,25 +12,27 @@ header {
 
 
 a.name {
-    background-color: red;
+    background-color: grey;
     padding: 15px;
-   
+    color: white;
+    
 }
 
 nav.menu {
     float: right;
+    font: red;
 }
 
 div.container {
     margin: 0 auto;
     width: auto;
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png");
     border-top: 2px solid black; ;
     
 }
 
 div.content {
-    max-width: 685px;
+    max-width: 700px;
     margin: 0 auto;
     
 }
@@ -47,14 +49,13 @@ article.about {
 nav.connect {
     float: right;
     align-content: center;
-    width: 165px;
+    width: 175px;
     background-color: white;
     margin: 20px 20px;
     padding: 10px;
 }
 
-h1 {
-    font-size: 30px;
+h2 {
     border-bottom: 3px solid black;
     padding-bottom: 5px;
 }
@@ -85,7 +86,7 @@ footer {
     width: auto;
     padding: 10px;
     text-align: center;
-    background-color: green;
+    background-color: grey;
     border-top: 4px solid #000;
 }
 
