@@ -9,16 +9,10 @@ body {
 }
 img {
     float: left;
-    width: 60%;
+    width: 100px;
     margin: 5px;
 }
 p {
-    display: block;
-    box-sizing: border-box;
-    background-color: grey;
-    border: 12px;
-    padding: 20px;
-    margin: 20px;
     width: 550px;
     text-align: justify;
 }
