@@ -4,12 +4,12 @@
 
 body {
     max-width: 800px;
-    margin: 30px auto;
+    margin: 100px auto;
 
 }
-img {
+img.main {
     float: left;
-    width: 10px;
+    width: 30px;
 }
 p {
     display: block;
