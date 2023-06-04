@@ -1,16 +1,12 @@
 * {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: auto;
 }
 
 body {
     margin: 0 auto;
+    max-width: auto;
     
-}
-
-main {
-    max-width: 700px;
-
 }
 
 section { 
@@ -18,18 +14,26 @@ section {
 
 }
 
-header {
-    border-bottom: 2px solid black;  
+header { 
     padding: 15px 0;
     background-color: white;
+    max-width: 685px;
 }
 
 div.container {
-    max-width: 40px;
     margin: 0 auto;
+    width: auto;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+    border-top: 2px solid black; ;
     
 }
 
+div.content {
+    max-width: 685px;
+    margin: 0 auto;
+    ali
+    
+}
 
 a.name {
     background-color: blue;
@@ -39,14 +43,19 @@ a.name {
 
 }
 
-nav {
+nav.menu {
     float: right;
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+    color: white;
+
 }
 
 article.about {
     float: left;
     width: 400px;
-    background-color: orange;
+    background-color: white;
     margin: 20px 20px;
     padding: 10px;
     
@@ -54,9 +63,10 @@ article.about {
 
 nav.connect {
     float: right;
-    width: 200px;
+    align-content: center;
+    width: 165px;
     background-color: green;
-    margin: 20px 0;
+    margin: 20px 20px;
     padding: 10px;
 }
 
@@ -69,11 +79,11 @@ h1 {
 img {
     float: left;
     width: 125px;
-    padding-top: 10px;
+    padding: 5px 5px;
 }
 
 img.logo {
-    width: 25px;
+    width: 35px;
     padding: 10px;
     
 }
@@ -89,7 +99,8 @@ main::after {
 }
 
 footer {
-    padding: 20px;
+    width: auto;
+    padding: 10px;
     text-align: center;
     background-color: green;
     border-top: 4px solid #000;
