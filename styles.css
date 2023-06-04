@@ -1,27 +1,31 @@
 * {
     margin: 0 auto;
     max-width: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {  
     max-width: 685px;
-    padding: 15px 100px 15px 100px;
+    padding: 15px;
     margin: 0 auto;
     font-size: 15px;
+    
 }
 
 
 a.name {
     background-color: grey;
     padding: 15px;
-    color: white;    
+    color: white; 
+    font-size: 20px; 
 }
 
 nav.menu {
     display: inline-block;
     float: right;
     font: red;
-    width: 175px;
+    width: 250px;
+    font-size: 20px;
 }
 
 div.container {
