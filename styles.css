@@ -9,6 +9,7 @@ body {
 article {
     width: 500px;
     background-color: blue;
+    margin: 20px;
 }
 
 img {
@@ -18,6 +19,5 @@ img {
 }
 p {
     width: 500px;
-    text-align: justify;
     margin: 10px;
 }
