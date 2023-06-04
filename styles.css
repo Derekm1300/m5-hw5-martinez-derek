@@ -13,10 +13,11 @@ article {
 
 img {
     float: left;
-    width: 165px;
+    width: 175px;
     margin: 10px;
 }
 p {
     width: 500px;
     text-align: justify;
+    margin: 10px;
 }
