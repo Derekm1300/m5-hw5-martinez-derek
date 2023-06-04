@@ -2,15 +2,24 @@
     margin: 0;
 }
 
+div.container {
+    max-width: 1000px;
+    
+    
+}
+
 header {
-    border-bottom: 5px solid black;
-    padding: 15px;  
+    border-bottom: 2px solid black;  
+    padding: 15px 0;
 
 }
 
+
 a.name {
-    
     background-color: grey;
+    padding: 15px;
+    color: white;
+
 }
 
 nav {
@@ -19,16 +28,20 @@ nav {
 
 main {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png");
-    width: auto;
 }
 
-article {
+article.about {
     float: left;
+    width: 500px;
+    background-color: orange;
+    margin: 20px;
+    padding: 10px;
 }
 
-article {
-    width: 400px;
-    background-color: orange;
+nav.connect {
+    float: right;
+    width: 200px;
+    background-color: green;
     margin: 20px;
     padding: 10px;
 }
@@ -37,7 +50,6 @@ h1 {
     border-bottom: 3px solid black;
     padding-bottom: 5px;
 }
-
 
 img {
     float: left;
@@ -48,7 +60,6 @@ img {
 p {
     padding-top: 10px;
 }
-
 
 main::after {
     content: "";
@@ -62,3 +73,4 @@ footer {
     background-color: green;
     border-top: 4px solid #000;
 }
+
