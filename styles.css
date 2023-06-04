@@ -24,7 +24,7 @@ nav.menu {
     display: inline-block;
     float: right;
     font: red;
-    width: 300px;
+    width: 250px;
     font-size: 20px;
 }
 
@@ -54,7 +54,8 @@ article.about {
 nav.connect {
     float: right;
     align-content: center;
-    width: 200px;
+    text-align: center;
+    width: 250px;
     background-color: white;
     margin: 20px 20px;
     padding: 10px;
@@ -72,7 +73,8 @@ img {
 }
 
 img.logo {
-    width: 35px;
+    float: center;
+    width: 55px;
     padding: 10px;
     
 }
