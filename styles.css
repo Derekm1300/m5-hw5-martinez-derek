@@ -5,7 +5,7 @@
 }
 
 header {  
-    max-width: 685px;
+    max-width: 800px;
     padding: 15px;
     margin: 0 auto;
     font-size: 15px;
@@ -24,7 +24,7 @@ nav.menu {
     display: inline-block;
     float: right;
     font: red;
-    width: 250px;
+    width: 300px;
     font-size: 20px;
 }
 
